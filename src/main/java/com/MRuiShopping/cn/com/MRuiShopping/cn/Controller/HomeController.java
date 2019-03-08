@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("home")
 public class HomeController {
 
-    @RequestMapping("home")
+    @RequestMapping("index")
     public  String index(Model model){
          model.addAttribute("name" ,"罗明");
 
-        return "Home/home";
+        return "Home/index";
     }
 }

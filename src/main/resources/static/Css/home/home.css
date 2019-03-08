@@ -1,0 +1,127 @@
+body{
+   font-family: "%u5FAE%u8F6F%u96C5%u9ED1";
+}
+*{
+    margin: 0 ;
+    padding: 0 ;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    display: inline-block;
+}
+.top{
+    height:40px ;
+    background: #f5f5f5;
+}
+
+.top-toolbar{
+    float: right;
+    line-height:40px;
+    list-style: none;
+    padding: 9px;
+    margin-right:70px;
+}
+.top-toolbar li{
+    display: inline-block;
+    font: 14px "%u5B8B%u4F53";
+    float: left;
+    margin: 0 0 0 15px;
+    text-align: center;
+}
+.on-load .onload-important{
+    color: #f22e00!important;
+}
+#middlenab{
+    margin: 0 ;
+    padding: 0 ;
+    background: #fff;
+    height: 108px;
+}
+.middleul{
+    list-style: none;
+    text-align: center;
+}
+.middleul li{
+    display: inline-block;
+    text-align: center;
+    margin-left: 10px;
+}
+.middlesearch{
+    vertical-align: middle;
+    position: relative;
+    height: 38px;
+    overflow: hidden;
+    width: 534px;
+    margin: 60px auto 40px auto;
+}
+.quickSearch{
+    border-color: orangered;
+   /* border-radius: 20px;*/
+    margin: 0 auto;
+    width: 472px;
+    height: 36px;
+}
+.btnsear{
+    height: 36px;
+    width: 52px;
+    float: right;
+}
+.search-button{
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFF;
+    background-color: #FF4200;
+    cursor: pointer;
+    height: 36px;
+    border: none;
+    width: 52px;
+    margin-left: -10px;
+    background-image: linear-gradient(to right,#ff9000 0,#ff5000 100%);
+}
+.middlelists{
+    height: 30px;
+    line-height: 30px;
+    margin: auto;
+    background-image: linear-gradient(to right,#ff9000 0,#ff5000 100%);
+    color: #fff;
+}
+.miao-kill,.free-ticket{
+    color: #fff;
+}
+.middlelists-list{
+    height: 30px;
+    width: 560px;
+    line-height: 30px;
+    margin: auto;
+
+}
+#bottom-nab{
+    height: 446px;
+}
+.left-choose-pan{
+    height: 446px;
+    width: 190px;
+    margin: 0 0 0 100px;
+    background-color: antiquewhite;
+}
+.choose-lan-mu{
+    list-style: none;
+    width: 190px;
+}
+.choose-lan-mu li{
+    margin: 10px 10px 10px 25px;
+    height: 30px;
+}
+.choose-lan-mu li a{
+    margin-left: 5px ;
+    text-align: center;
+}
+.span-li-right {
+     float: right;
+     color:silver;
+}
+
+
