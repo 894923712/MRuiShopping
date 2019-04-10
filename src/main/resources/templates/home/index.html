@@ -7,8 +7,6 @@
     <title>明瑞商城</title>
     <link rel="shortcut icon" type="image/x-icon" th:href="@{/image/bitbug_favicon.ico}"> <!--设置网页图标-->
     <link rel="stylesheet" type="text/css" th:href="@{/Css/home/home.css}">
-    <script type="text/javascript" src="@{/JS/home/home.js}"></script>
-    <script type="text/javascript" th:src="@{/JS/jquery-3.3.1.min.js}"></script>
 </head>
 <body>
    <div id="shopping">
@@ -67,13 +65,85 @@
                    <li><a href="#">女装</a><span>/</span><a href="#">男装</a><span>/</span><a href="#">内衣</a><span class="span-li-right">></span></li>
                </ul>
            </div>
-           <div>
-
+           <!--中间闪图部分-->
+           <div class="bottom-middle-box">
+               <div class="flex-image-banner">
+                  <button class="silder-control silder-control-left"><i class="iconfont"><</i></button>
+                   <div class="silder-list">
+                       <li class="silder-item"><a href="#"><img th:src="@{/image/flyjie.jpg}" alt="明瑞蝴蝶结" class="item-image"></a></li>
+                       <li style="display: none"><a href="#"><img th:src="@{/image/banner2.jpg}" alt="明瑞蝴蝶结" class="item-image"></a></li>
+                       <li style="display: none"><a href="#"><img th:src="@{/image/banner3.jpg}" alt="明瑞蝴蝶结" class="item-image"></a></li>
+                       <li style="display: none"><a href="#"><img th:src="@{/image/banner4.jpg}" alt="明瑞蝴蝶结" class="item-image"></a></li>
+                       <li style="display: none"><a href="#"><img th:src="@{/image/banner5.jpg}" alt="明瑞蝴蝶结" class="item-image"></a></li>
+                   </div>
+                   <button class="silder-control silder-control-next"><i class="iconfont">></i></button>
+                   <!--控制图片切换-->
+                   <div class="slider_indicators">
+                       <i clstag="h|keycount|head|focus_s01" class="slider_indicators_btn slider_indicators_btn_active"></i>
+                       <i clstag="h|keycount|head|focus_s02" class="slider_indicators_btn"></i>
+                       <i clstag="h|keycount|head|focus_s03" class="slider_indicators_btn"></i>
+                       <i clstag="h|keycount|head|focus_s04" class="slider_indicators_btn"></i>
+                       <i clstag="h|keycount|head|focus_s05" class="slider_indicators_btn"></i>
+                   </div>
+               </div>
+               <div class="image-right-banner">
+                   <div class="image-right-first">
+                       <a><img th:src="@{/image/banner_right1.jpg}"></a>
+                   </div>
+                   <div class="image-right-second">
+                       <a><img th:src="@{/image/banner_right2.jpg}"></a>
+                   </div>
+                   <div class="image-right-second">
+                       <a><img th:src="@{/image/banner_right3.jpg}"></a>
+                   </div>
+               </div>
            </div>
-           <div>
+           <!--右边会员信息部分-->
+           <div class="bottom-right-box">
+               <div class="onload-information">
+                  <div class="onload-information-detail">
+                      <span class="tou-xiang"><a href="#" target="_blank"><img th:src="@{/image/no_login.jpg}"></a></span>
+                  </div>
+                   <div class="welcome-pannel">
+                       <div class="welcome">
+                           <span >Hi 欢迎来到明瑞！</span>
+                       </div>
+                       <div class="welcome-onload">
+                           <ul>
+                               <li><a href="#" target="_self">登录</a></li>
+                               <li><a href="#" target="_blank">注册</a></li>
+                           </ul>
+                       </div>
 
+                   </div>
+                   <div class="newAndFuli">
+                       <ul>
+                           <li><a href="#" target="_blank">新人福利</a></li>
+                           <li><a href="#" target="_blank">超级会员</a></li>
+                       </ul>
+                   </div>
+               </div>
+               <div class="notice-information">
+                   <div class="newTitle">
+                       <div class="bobao"><span>明瑞快报</span></div>
+                       <div class="moreandmore"><span><a target="_blank" href="#">更多</a><i>></i></span></div>
+                   </div>
+                   <div class="news">
+                       <ul>
+                           <li><a href="#" target="_blank">优选好货</a></li>
+                           <li><a href="#" target="_blank">优选好货</a></li>
+                           <li><a href="#" target="_blank">优选好货</a></li>
+                           <li><a href="#" target="_blank">优选好货</a></li>
+                       </ul>
+                   </div>
+               </div>
+               <div class="quick-charge">
+
+               </div>
            </div>
        </div>
    </div>
 </body>
+<script type="text/javascript" th:src="@{/JS/jquery-3.3.1.min.js}"></script>
+<script type="text/javascript" th:src="@{/JS/home/home.js}"></script>
 </html>
